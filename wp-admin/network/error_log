@@ -1,0 +1,1 @@
+[09-Aug-2024 19:01:05 UTC] PHP Fatal error:  Cannot redeclare wp_privacy_process_personal_data_erasure_page() (previously declared in /home/ahr3k5lvec4v/public_html/wp-admin/includes/user.php:901) in /home/ahr3k5lvec4v/public_html/wp-admin/includes/privacy-tools.php on line 914

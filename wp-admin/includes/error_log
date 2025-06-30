@@ -1,0 +1,17 @@
+[27-Oct-2021 14:36:07 UTC] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/ahr3k5lvec4v/public_html/wp-admin/includes/class-wp-filesystem-ftpsockets.php on line 16
+[13-Jun-2023 09:53:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/ahr3k5lvec4v/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ahr3k5lvec4v/public_html/wp-admin/includes/admin.php on line 16
+[12-Jul-2023 09:11:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/ahr3k5lvec4v/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ahr3k5lvec4v/public_html/wp-admin/includes/admin.php on line 16
+[12-Sep-2023 19:58:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/ahr3k5lvec4v/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ahr3k5lvec4v/public_html/wp-admin/includes/admin.php on line 16
+[16-Feb-2024 16:47:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/ahr3k5lvec4v/public_html/wp-admin/includes/file.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ahr3k5lvec4v/public_html/wp-admin/includes/file.php on line 16
