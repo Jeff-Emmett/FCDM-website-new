@@ -54,7 +54,7 @@ export default function AboutPage() {
                 {/* NAME in Permanent Marker */}
                 <h3 className="service-title text-3xl mb-3 text-gray-900">Jeff Emmett</h3>
                 {/* FOUNDER TITLE in italics */}
-                <p className="text-gray-600 italic mb-6 text-lg">Founder</p>
+                <p className="text-gray-600 italic mb-6 text-lg">Lead Marketer</p>
                 {/* BIO TEXT */}
                 <p className="text-gray-700 leading-relaxed text-base px-4">
                   With over 10 years of Social Media & Digital Marketing Strategy experience, Jeff is a self-professed
@@ -81,7 +81,7 @@ export default function AboutPage() {
                 {/* LOGISTICS COORDINATOR TITLE in italics */}
                 <p className="text-gray-600 italic mb-6 text-lg">Logistics Coordinator</p>
                 {/* BIO TEXT */}
-                <p className="text-gray-700 leading-relaxed text-base px-4">Lorem Ipsum</p>
+                <p className="text-gray-700 leading-relaxed text-base px-4">With strong skills in logistics and operations, Marco is a master of digital organization.  His attention to detail and incredible memory make him an indispensible member of the Full Circle team.</p>
               </div>
             </div>
           </div>

@@ -18,7 +18,7 @@ export default function HomePage() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/images/hero-background-new.jpg')",
+            backgroundImage: "url('/images/hero-background.jpg')",
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-br from-teal-500/90 to-blue-900/90" />
@@ -55,13 +55,13 @@ export default function HomePage() {
           <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {/* Integrated Digital Marketing Strategy */}
             <Card className="text-center p-6 border-none shadow-lg h-full">
-              <CardContent className="pt-6">
-                <div className="mb-6 h-32 flex items-center justify-center">
+              <CardContent className="pt-2">
+                <div className="mb-2 h-60 flex items-center justify-center">
                   <Image
                     src="/images/icons/marketing-strategy-green.png"
                     alt="Integrated Digital Marketing Strategy"
-                    width={120}
-                    height={120}
+                    width={240}
+                    height={240}
                     className="mx-auto"
                   />
                 </div>
@@ -76,7 +76,7 @@ export default function HomePage() {
                   with your customers. Our holistic approach to your digital success consists of the following
                   components & more:
                 </p>
-                <ul className="text-left text-gray-600 mb-6 space-y-2 text-sm">
+                <ul className="text-center text-gray-600 mb-6 space-y-2 text-sm">
                   <li>• Marketing Funnel Discovery</li>
                   <li>• Newsletter Automation Setup</li>
                   <li>• Social Content Strategy</li>
@@ -90,13 +90,13 @@ export default function HomePage() {
 
             {/* Digital Media Buys */}
             <Card className="text-center p-6 border-none shadow-lg h-full">
-              <CardContent className="pt-6">
-                <div className="mb-6 h-32 flex items-center justify-center">
+              <CardContent className="pt-2">
+                <div className="mb-2 h-60 flex items-center justify-center">
                   <Image
                     src="/images/icons/media-buys-green.png"
                     alt="Digital Media Buys"
-                    width={120}
-                    height={120}
+                    width={240}
+                    height={240}
                     className="mx-auto"
                   />
                 </div>
@@ -104,14 +104,14 @@ export default function HomePage() {
                   className="text-xl mb-4 font-bold text-gray-900"
                   style={{ fontFamily: "var(--font-permanent-marker)" }}
                 >
-                  Digital Media Buys
+                  Digital Media Search & Advertising 
                 </h3>
                 <p className="text-gray-600 mb-4 text-base leading-relaxed">
                   Integrated, consistent cross platform messaging is essential to promoting your brand or product. Our
                   media buy tactics work together with your organic post strategy and can incorporate the following
                   channels:
                 </p>
-                <ul className="text-left text-gray-600 mb-6 space-y-2 text-sm">
+                <ul className="text-center text-gray-600 mb-6 space-y-2 text-sm">
                   <li>• Facebook Advertising</li>
                   <li>• Instagram Advertising</li>
                   <li>• Youtube Advertising</li>
@@ -125,13 +125,13 @@ export default function HomePage() {
 
             {/* Integrations, Analytics & Tracking */}
             <Card className="text-center p-6 border-none shadow-lg h-full">
-              <CardContent className="pt-6">
-                <div className="mb-6 h-32 flex items-center justify-center">
+              <CardContent className="pt-2">
+                <div className="mb-2 h-60 flex items-center justify-center">
                   <Image
                     src="/images/icons/integrations.jpg"
                     alt="Integrations, Analytics & Tracking"
-                    width={120}
-                    height={120}
+                    width={240}
+                    height={240}
                     className="mx-auto"
                   />
                 </div>
@@ -139,15 +139,14 @@ export default function HomePage() {
                   className="text-xl mb-4 font-bold text-gray-900"
                   style={{ fontFamily: "var(--font-permanent-marker)" }}
                 >
-                  Integrations, Analytics & Tracking
+                  Platform Integrations, Analytics & Tracking
                 </h3>
                 <p className="text-gray-600 mb-4 text-base leading-relaxed">
                   An essential part of bringing your digital strategy full circle lies in tracking campaign progress,
-                  ensuring targets are being met, and iterating on the ideas that work. Cost per result varies across
-                  different industries, which is why we utilize a data based iteration model that suits the needs of any
+                  ensuring targets are being met, and iterating on the ideas that work. We use a data based iteration model that suits the needs of any
                   business, utilizing the platforms below and more:
                 </p>
-                <ul className="text-left text-gray-600 mb-6 space-y-2 text-sm">
+                <ul className="text-center text-gray-600 mb-6 space-y-2 text-sm">
                   <li>• Google Analytics</li>
                   <li>• Tag Manager & Tracking Pixels</li>
                   <li>• Ad Campaign Reporting</li>

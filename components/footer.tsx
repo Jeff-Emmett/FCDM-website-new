@@ -70,10 +70,6 @@ export function Footer() {
             Full Circle Digital Marketing © 2024 · Site Crafted By{" "}
             <Link href="https://kaitschmidek.com/" target="_blank" className="text-teal-400 hover:text-teal-300">
               Kait Schmidek
-            </Link>{" "}
-            · Theme by{" "}
-            <Link href="https://seothemes.com/" target="_blank" className="text-teal-400 hover:text-teal-300">
-              SEO Themes
             </Link>
           </p>
         </div>
