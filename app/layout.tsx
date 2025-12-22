@@ -32,14 +32,37 @@ const roboto = Roboto({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://fullcircledigitalmarketing.ca"),
   title: "Full Circle Digital Marketing",
   description: "We are a boutique digital marketing team committed to helping you succeed at what you do best.",
   icons: {
-    icon: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Full-Circle-Digital-Marketing-Submark-Web-OF9AEH5BhFbC3uaQ9le1QiIkUjPzdD.png",
-    apple:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Full-Circle-Digital-Marketing-Submark-Web-OF9AEH5BhFbC3uaQ9le1QiIkUjPzdD.png",
+    icon: "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⭕</text></svg>",
   },
-    generator: 'v0.dev'
+  generator: "v0.dev",
+  openGraph: {
+    title: "Full Circle Digital Marketing",
+    description:
+      "We are a boutique digital marketing team committed to helping you succeed at what you do best.",
+    url: "https://fullcircledigitalmarketing.ca",
+    siteName: "Full Circle Digital Marketing",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Full Circle Digital Marketing",
+      },
+    ],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Full Circle Digital Marketing",
+    description:
+      "We are a boutique digital marketing team committed to helping you succeed at what you do best.",
+    images: ["/og-image.jpg"],
+  },
 }
 
 export default function RootLayout({
