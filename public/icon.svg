@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Enso zen circle - incomplete brush stroke -->
+  <path fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"
+    d="M 20 52
+       Q 8 44, 8 32
+       Q 8 14, 32 10
+       Q 52 8, 56 28
+       Q 58 44, 44 52
+       Q 36 56, 28 52"
+    opacity="0.95"/>
+  <!-- Brush stroke variation for texture -->
+  <path fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"
+    d="M 21 51
+       Q 10 44, 10 32
+       Q 10 16, 32 12
+       Q 50 10, 54 28
+       Q 56 42, 44 50"
+    opacity="0.6"/>
+</svg>

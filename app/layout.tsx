@@ -36,7 +36,11 @@ export const metadata: Metadata = {
   title: "Full Circle Digital Marketing",
   description: "We are a boutique digital marketing team committed to helping you succeed at what you do best.",
   icons: {
-    icon: "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⭕</text></svg>",
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    apple: "/favicon.png",
   },
   generator: "v0.dev",
   openGraph: {
