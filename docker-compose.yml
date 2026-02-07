@@ -1,0 +1,15 @@
+services:
+  fcdm:
+    build: .
+    container_name: fcdm-prod
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.fcdm.rule=Host(`fullcircledigitalmarketing.ca`) || Host(`www.fullcircledigitalmarketing.ca`)"
+      - "traefik.http.services.fcdm.loadbalancer.server.port=3000"
+    networks:
+      - traefik-public
+
+networks:
+  traefik-public:
+    external: true
